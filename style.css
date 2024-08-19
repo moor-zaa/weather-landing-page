@@ -1,0 +1,49 @@
+body {
+  font-family: "Exo 2", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-color: #12364f;
+  color: rgb(211, 211, 211);
+}
+
+#content {
+  text-align: center;
+  width: calc(100vw - 320px);
+}
+
+#weather-details {
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+#load-weather-app {
+  padding: 16px;
+  border-radius: 16px;
+  background: #ff6a33;
+  font-family: "Exo 2", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  border: 1px solid #ff9872;
+}
+
+iframe {
+  height: calc(100vh - 200px);
+  border-radius: 32px;
+}
+
+@media (max-width: 480px) {
+  #content {
+    text-align: center;
+    width: calc(100vw - 32px);
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+}
